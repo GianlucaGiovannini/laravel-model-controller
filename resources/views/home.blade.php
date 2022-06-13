@@ -4,7 +4,7 @@
 
 <div class="p-5 bg-light">
     <div class="container">
-       abbalabba
+       main content
     </div>
 </div>
 

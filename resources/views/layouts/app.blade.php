@@ -15,16 +15,19 @@
     </head>
     <body>
        <header>
-            io sono l'header 
+            <nav class="nav justify-content-center py-5">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">Books</a>
+            </nav>
        </header>
-
+ 
        <main>
             @yield('content')
         </main>
 
-        <header>
-            io sono il footer 
-       </header>
-       
+        <footer class="text-center py-3">
+            &copy; by Boolean with &hearts; 
+       </footer>
+
     </body>
 </html>

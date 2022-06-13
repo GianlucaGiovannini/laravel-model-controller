@@ -10272,6 +10272,42 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1d1d60;
+}
+
+nav {
+  background-color: black;
+  box-shadow: inset 0px -17px 20px 0 #1d1d60;
+}
+
 a {
   text-decoration: none;
+}
+
+.cards {
+  color: white;
+  padding-left: 1rem !important;
+  min-height: 220px;
+  box-shadow: 7px 6px 0px 0px #673ab7, 13px 12px 0px 0px white;
+  transition: box-shadow 0.7s;
+}
+.cards:hover {
+  box-shadow: 7px 6px 0px 0px #673ab7, -7px -6px 0 0 red;
+}
+.cards small,
+.cards .nazionality,
+.cards .release,
+.cards .rate {
+  color: #673ab7;
+}
+.cards small strong,
+.cards .nazionality strong,
+.cards .release strong,
+.cards .rate strong {
+  color: white;
+}
+
+footer {
+  color: white;
 }

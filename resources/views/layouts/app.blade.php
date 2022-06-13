@@ -15,7 +15,7 @@
     </head>
     <body>
        <header>
-            <nav class="nav justify-content-center py-5">
+            <nav class="nav justify-content-center pt-4 pb-1 mb-5">
               <a class="nav-link" href="#">Home</a>
               <a class="nav-link" href="#">Books</a>
             </nav>
@@ -25,7 +25,7 @@
             @yield('content')
         </main>
 
-        <footer class="text-center py-3">
+        <footer class="text-center pt-5 pb-3">
             &copy; by Boolean with &hearts; 
        </footer>
 

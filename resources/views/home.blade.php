@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title-page', 'home')
+
 @section('content')
 
 <div class="container">
@@ -19,7 +21,7 @@
                 </div>
                 <div class="card_info">
                     <div class="nazionality">
-                        Nazionalità:  <strong> {{$movie->title}} </strong>
+                        Nazionalità:  <strong> {{$movie->nationality}} </strong>
                     </div>
                     <div class="release">
                         Uscita: <strong> {{$movie->date}} </strong>

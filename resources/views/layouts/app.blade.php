@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel @yield('title-page')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -14,20 +14,14 @@
 
     </head>
     <body>
-       <header>
-            <nav class="nav justify-content-center pt-4 pb-1 mb-5">
-              <a class="nav-link" href="#">Home</a>
-              <a class="nav-link" href="#">Books</a>
-            </nav>
-       </header>
+        @include('partials.header')
  
        <main>
             @yield('content')
         </main>
 
-        <footer class="text-center pt-5 pb-3">
-            &copy; by Boolean with &hearts; 
-       </footer>
+       @include('partials.header')
 
+       <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
